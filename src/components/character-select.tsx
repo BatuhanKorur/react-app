@@ -51,7 +51,7 @@ export default function CharacterSelect(){
 
   return (
     <div className="space-y-3">
-      <div className={'border border-white/5 bg-neutral-950 rounded-md flex px-2 py-2 space-x-1.5'}>
+      <div className={'border border-white/5 bg-neutral-950 rounded-md flex px-2 py-2.5 space-x-1.5'}>
         {selected.length > 0 && selected.map((item, index) => (
           <Tag key={index} id={item.id} label={item.name} remove={handleRemove} />
         ))}

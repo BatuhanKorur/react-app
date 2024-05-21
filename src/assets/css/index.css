@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-black font-sans antialiased text-white;
+}
+
+input,
+textarea {
+	@apply focus:outline-none focus:ring-0 active:outline-none active:ring-0;
+}
